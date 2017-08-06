@@ -1,0 +1,446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"page",
+				"page-sample"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Pratyush Kumar/Desktop/E-cell/new_site/gallery_p.php",
+			"settings":
+			{
+				"buffer_size": 9350,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\" class=\"no-js\">\n\n<head>\n\t<meta charset=\"UTF-8\" />\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<title>Image Grid Effects | Demo 2 | Codrops</title>\n\t<meta name=\"description\" content=\"Effect inspiration for opening an image grid item.\" />\n\t<meta name=\"keywords\" content=\"image grid, effect, inspiration, css, javascript, animation, masonry\" />\n\t<meta name=\"author\" content=\"Codrops\" />\n\t<link rel=\"shortcut icon\" href=\"favicon.ico\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/normalize.css\" />\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"fonts/font-awesome-4.3.0/css/font-awesome.min.css\" />\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/demo.css\" />\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style2.css\" />\n\t<script src=\"js/modernizr-custom.js\"></script>\n</head>\n\n<body class=\"demo-2\">\n\t<div class=\"container\">\n\t\t<header class=\"codrops-header\">\n\t\t\t<div class=\"codrops-links\">\n\t\t\t\t<a class=\"codrops-icon codrops-icon--prev\" href=\"http://tympanus.net/Tutorials/CSSProgress/\" title=\"Previous Demo\"><span>Previous Demo</span></a>\n\t\t\t\t<a class=\"codrops-icon codrops-icon--drop\" href=\"http://tympanus.net/codrops/?p=25256\" title=\"Back2 to the article\"><span>Back to the Codrops article</span></a>\n\t\t\t</div>\n\t\t\t<h1>Gallery 1.0 <span>Animations for photography grids</span></h1>\n\t\t\t<nav class=\"codrops-demos\">\n\t\t\t\t<a href=\"index.html\">Demo 1</a>\n\t\t\t\t<a class=\"current-demo\" href=\"index2.html\">Demo 2</a>\n\t\t\t\t<a href=\"index3.html\">Demo 3</a>\n\t\t\t\t<a href=\"index4.html\">Demo 4</a>\n\t\t\t\t<a href=\"index5.html\">Demo 5</a>\n\t\t\t\t<a href=\"index6.html\">Demo 6</a>\n\t\t\t</nav>\n\t\t</header>\n\t\t<div class=\"content\">\n\t\t\t<div class=\"grid\">\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x857\">\n\t\t\t\t\t<a href=\"img/original/6.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/6.jpg\" alt=\"img06\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Mother's Love</h3>\n\t\t\t\t\t\t\t<p>Every time you drink a glass of milk or eat a piece of cheese, you harm a mother. Please go vegan. <em>&mdash; Gary L. Francione</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x1280\">\n\t\t\t\t\t<a href=\"img/original/7.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/7.jpg\" alt=\"img07\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Silent Killer</h3>\n\t\t\t\t\t\t\t<p>Cows’ milk protein may be the single most significant chemical carcinogen to which humans are exposed. <em>&mdash; T. Colin Campbell</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x853\">\n\t\t\t\t\t<a href=\"img/original/8.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/8.jpg\" alt=\"img08\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Senseless Suffering</h3>\n\t\t\t\t\t\t\t<p>The question is not, 'Can they reason?' nor, 'Can they talk?' but rather, 'Can they suffer?' <em>&mdash; Jeremy Bentham</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"865x1280\">\n\t\t\t\t\t<a href=\"img/original/9.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/9.jpg\" alt=\"img09\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Rabbit Intelligence</h3>\n\t\t\t\t\t\t\t<p>If a rabbit defined intelligence the way man does, then the most intelligent animal would be a rabbit, followed by the animal most willing to obey the commands of a rabbit. <em>&mdash; Robert Brault</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x1280\">\n\t\t\t\t\t<a href=\"img/original/10.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/10.jpg\" alt=\"img10\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Friendly Terms</h3>\n\t\t\t\t\t\t\t<p>Man is the only animal that can remain on friendly terms with the victims he intends to eat until he eats them. <em>&mdash; Samuel Butler</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x850\">\n\t\t\t\t\t<a href=\"img/original/11.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/11.jpg\" alt=\"img11\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Murder of Men</h3>\n\t\t\t\t\t\t\t<p>The time will come when men such as I will look upon the murder of animals as they now look upon the murder of men.<em>&mdash; Leonardo Da Vinci</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x853\">\n\t\t\t\t\t<a href=\"img/original/1.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/1.jpg\" alt=\"img01\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Highest Ethics</h3>\n\t\t\t\t\t\t\t<p>Non-violence leads to the highest ethics, which is the goal of all evolution. Until we stop harming all other living beings, we are still savages <em>&mdash; Thomas Edison</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"958x1280\">\n\t\t\t\t\t<a href=\"img/original/2.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/2.jpg\" alt=\"img02\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Pleasure, Amusement &amp; Convenience</h3>\n\t\t\t\t\t\t\t<p>We do not need to eat animals, wear animals, or use animals for entertainment purposes, and our only defense of these uses is our pleasure, amusement, and convenience.<em>&mdash; Gary L. Francione</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"837x1280\">\n\t\t\t\t\t<a href=\"img/original/3.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/3.jpg\" alt=\"img03\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Dinner</h3>\n\t\t\t\t\t\t\t<p>We all love animals. Why do we call some 'pets' and others 'dinner'? <em>&mdash; K.D. Lang</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x961\">\n\t\t\t\t\t<a href=\"img/original/4.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/4.jpg\" alt=\"img04\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Appetite or Suffering?</h3>\n\t\t\t\t\t\t\t<p>Could you look an animal in the eyes and say to it, 'My appetite is more important than your suffering'? <em>&mdash; Moby</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x1131\">\n\t\t\t\t\t<a href=\"img/original/5.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/5.jpg\" alt=\"img05\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>The Corpse</h3>\n\t\t\t\t\t\t\t<p>Recognize meat for what it really is: the antibiotic- and pesticide-laden corpse of a tortured animal. <em>&mdash; Ingrid Newkirk</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x857\">\n\t\t\t\t\t<a href=\"img/original/6.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/6.jpg\" alt=\"img06\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Mother's Love</h3>\n\t\t\t\t\t\t\t<p>Every time you drink a glass of milk or eat a piece of cheese, you harm a mother. Please go vegan. <em>&mdash; Gary L. Francione</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x1280\">\n\t\t\t\t\t<a href=\"img/original/7.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/7.jpg\" alt=\"img07\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Silent Killer</h3>\n\t\t\t\t\t\t\t<p>Cows’ milk protein may be the single most significant chemical carcinogen to which humans are exposed. <em>&mdash; T. Colin Campbell</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x853\">\n\t\t\t\t\t<a href=\"img/original/8.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/8.jpg\" alt=\"img08\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Senseless Suffering</h3>\n\t\t\t\t\t\t\t<p>The question is not, 'Can they reason?' nor, 'Can they talk?' but rather, 'Can they suffer?' <em>&mdash; Jeremy Bentham</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"865x1280\">\n\t\t\t\t\t<a href=\"img/original/9.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/9.jpg\" alt=\"img09\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Rabbit Intelligence</h3>\n\t\t\t\t\t\t\t<p>If a rabbit defined intelligence the way man does, then the most intelligent animal would be a rabbit, followed by the animal most willing to obey the commands of a rabbit. <em>&mdash; Robert Brault</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x1280\">\n\t\t\t\t\t<a href=\"img/original/10.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/10.jpg\" alt=\"img10\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Friendly Terms</h3>\n\t\t\t\t\t\t\t<p>Man is the only animal that can remain on friendly terms with the victims he intends to eat until he eats them. <em>&mdash; Samuel Butler</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x850\">\n\t\t\t\t\t<a href=\"img/original/11.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/11.jpg\" alt=\"img11\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Murder of Men</h3>\n\t\t\t\t\t\t\t<p>The time will come when men such as I will look upon the murder of animals as they now look upon the murder of men.<em>&mdash; Leonardo Da Vinci</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x853\">\n\t\t\t\t\t<a href=\"img/original/1.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/1.jpg\" alt=\"img01\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Highest Ethics</h3>\n\t\t\t\t\t\t\t<p>Non-violence leads to the highest ethics, which is the goal of all evolution. Until we stop harming all other living beings, we are still savages <em>&mdash; Thomas Edison</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"958x1280\">\n\t\t\t\t\t<a href=\"img/original/2.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/2.jpg\" alt=\"img02\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Pleasure, Amusement &amp; Convenience</h3>\n\t\t\t\t\t\t\t<p>We do not need to eat animals, wear animals, or use animals for entertainment purposes, and our only defense of these uses is our pleasure, amusement, and convenience.<em>&mdash; Gary L. Francione</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"837x1280\">\n\t\t\t\t\t<a href=\"img/original/3.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/3.jpg\" alt=\"img03\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Dinner</h3>\n\t\t\t\t\t\t\t<p>We all love animals. Why do we call some 'pets' and others 'dinner'? <em>&mdash; K.D. Lang</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x961\">\n\t\t\t\t\t<a href=\"img/original/4.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/4.jpg\" alt=\"img04\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>Appetite or Suffering?</h3>\n\t\t\t\t\t\t\t<p>Could you look an animal in the eyes and say to it, 'My appetite is more important than your suffering'? <em>&mdash; Moby</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"grid__item\" data-size=\"1280x1131\">\n\t\t\t\t\t<a href=\"img/original/5.jpg\" class=\"img-wrap\"><img src=\"img/thumbs/5.jpg\" alt=\"img05\" />\n\t\t\t\t\t\t<div class=\"description description--grid\">\n\t\t\t\t\t\t\t<h3>The Corpse</h3>\n\t\t\t\t\t\t\t<p>Recognize meat for what it really is: the antibiotic- and pesticide-laden corpse of a tortured animal. <em>&mdash; Ingrid Newkirk</em></p>\n\t\t\t\t\t\t\t<div class=\"details\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-camera\"></i><span>Canon PowerShot S95</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-focal_length\"></i><span>22.5mm</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-aperture\"></i><span>&fnof;/5.6</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-exposure_time\"></i><span>1/1000</span></li>\n\t\t\t\t\t\t\t\t\t<li><i class=\"icon icon-iso\"></i><span>80</span></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<!-- /grid -->\n\t\t\t<div class=\"preview\">\n\t\t\t\t<button class=\"action action--close\"><i class=\"fa fa-times\"></i><span class=\"text-hidden\">Close</span></button>\n\t\t\t\t<div class=\"description description--preview\"></div>\n\t\t\t</div>\n\t\t\t<!-- /preview -->\n\t\t</div>\n\t\t<!-- /content -->\n\t\t<!-- Related demos -->\n\t\t<section class=\"content content--related\">\n\t\t\t<p>Quotes from <a href=\"http://www.pledgevegan.com/vegan-spotlight/top-100-vegan-quotes\">Pledge Vegan</a></p>\n\t\t\t<p>Images from <a href=\"http://www.unsplash.com\">Unsplash.com</a></p>\n\t\t\t<p>If you enjoyed this demo you might also like:</p>\n\t\t\t<a class=\"media-item\" href=\"http://tympanus.net/Development/AnimatedGridLayout/\">\n\t\t\t\t<img class=\"media-item__img\" src=\"img/related/GridItemAnimation.jpg\">\n\t\t\t\t<h3 class=\"media-item__title\">Grid Item Animation Layout</h3>\n\t\t\t</a>\n\t\t\t<a class=\"media-item\" href=\"http://tympanus.net/Tutorials/ShapeHoverEffectSVG/\">\n\t\t\t\t<img class=\"media-item__img\" src=\"img/related/ShapeHoverEffect.png\">\n\t\t\t\t<h3 class=\"media-item__title\">Shape Hover Effect with SVG</h3>\n\t\t\t</a>\n\t\t</section>\n\t</div>\n\t<!-- /container -->\n\t<script src=\"js/imagesloaded.pkgd.min.js\"></script>\n\t<script src=\"js/masonry.pkgd.min.js\"></script>\n\t<script src=\"js/classie.js\"></script>\n\t<script src=\"js/main.js\"></script>\n\t<script>\n\t\t(function() {\n\t\t\tvar support = { transitions: Modernizr.csstransitions },\n\t\t\t\t// transition end event name\n\t\t\t\ttransEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },\n\t\t\t\ttransEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],\n\t\t\t\tonEndTransition = function( el, callback ) {\n\t\t\t\t\tvar onEndCallbackFn = function( ev ) {\n\t\t\t\t\t\tif( support.transitions ) {\n\t\t\t\t\t\t\tif( ev.target != this ) return;\n\t\t\t\t\t\t\tthis.removeEventListener( transEndEventName, onEndCallbackFn );\n\t\t\t\t\t\t}\n\t\t\t\t\t\tif( callback && typeof callback === 'function' ) { callback.call(this); }\n\t\t\t\t\t};\n\t\t\t\t\tif( support.transitions ) {\n\t\t\t\t\t\tel.addEventListener( transEndEventName, onEndCallbackFn );\n\t\t\t\t\t}\n\t\t\t\t\telse {\n\t\t\t\t\t\tonEndCallbackFn();\n\t\t\t\t\t}\n\t\t\t\t};\n\n\t\t\tnew GridFx(document.querySelector('.grid'), {\n\t\t\t\timgPosition : {\n\t\t\t\t\tx : -0.5,\n\t\t\t\t\ty : 1\n\t\t\t\t},\n\t\t\t\tonOpenItem : function(instance, item) {\n\t\t\t\t\tinstance.items.forEach(function(el) {\n\t\t\t\t\t\tif(item != el) {\n\t\t\t\t\t\t\tvar delay = Math.floor(Math.random() * 50);\n\t\t\t\t\t\t\tel.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';\n\t\t\t\t\t\t\tel.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';\n\t\t\t\t\t\t\tel.style.WebkitTransform = 'scale3d(0.1,0.1,1)';\n\t\t\t\t\t\t\tel.style.transform = 'scale3d(0.1,0.1,1)';\n\t\t\t\t\t\t\tel.style.opacity = 0;\n\t\t\t\t\t\t}\n\t\t\t\t\t});\n\t\t\t\t},\n\t\t\t\tonCloseItem : function(instance, item) {\n\t\t\t\t\tinstance.items.forEach(function(el) {\n\t\t\t\t\t\tif(item != el) {\n\t\t\t\t\t\t\tel.style.WebkitTransition = 'opacity .4s, -webkit-transform .4s';\n\t\t\t\t\t\t\tel.style.transition = 'opacity .4s, transform .4s';\n\t\t\t\t\t\t\tel.style.WebkitTransform = 'scale3d(1,1,1)';\n\t\t\t\t\t\t\tel.style.transform = 'scale3d(1,1,1)';\n\t\t\t\t\t\t\tel.style.opacity = 1;\n\n\t\t\t\t\t\t\tonEndTransition(el, function() {\n\t\t\t\t\t\t\t\tel.style.transition = 'none';\n\t\t\t\t\t\t\t\tel.style.WebkitTransform = 'none';\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t}\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t});\n\t\t})();\n\t</script>\n</body>\n\n</html>\n",
+			"file": "/D/lampp/htdocs/ImageGridEffects/ImageGridEffects/index2.html",
+			"file_size": 24339,
+			"file_write_time": 130893555820000000,
+			"settings":
+			{
+				"buffer_size": 24329,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\t.grid {\n\tposition: relative;\n\tmargin: 0 auto;\n}\n\n.js .grid::after {\n\tcontent: '';\n\tposition: absolute;\n\twidth: 100%;\n\theight: 100%;\n\ttop: 0;\n\tleft: 0;\n\tpointer-events: none;\n\tbackground: #252323 url(../img/loading.svg) no-repeat 50% 75px;\n\tbackground-size: 60px auto;\n\t-webkit-transition: opacity 0.3s;\n\ttransition: opacity 0.3s;\n}\n\n.js .grid--loaded::after {\n\topacity: 0;\n}\n\n.grid__item {\n\twidth: 270px;\n\tpadding: 10px;\n}\n\n.grid__item--current {\n\topacity: 0 !important;\n}\n\n.img-wrap {\n\tdisplay: block;\n}\n\n.img-wrap:focus,\n.img-wrap:hover {\n\toutline: none;\n}\n\n.img-wrap img {\n\tdisplay: block;\n\tmax-width: 100%;\n}\n\n.preview {\n\tposition: fixed;\n\tz-index: 1000;\n\ttop: 0;\n\tleft: 0;\n\tdisplay: -ms-flex;\n\tdisplay: -webkit-flex;\n\tdisplay: flex;\n\t-ms-flex-pack: center;\n\t-webkit-justify-content: center;\n\tjustify-content: center;\n\t-ms-flex-line-pack: center;\n\t-webkit-align-content: center;\n\talign-content: center;\n\t-ms-flex-align: center;\n\t-webkit-align-items: center;\n\talign-items: center;\n\twidth: 50%;\n\theight: 100%;\n\tpointer-events: none;\n}\n\n.preview::before {\n\tcontent: '';\n\tposition: fixed;\n\ttop: 0;\n\tleft: 0;\n\twidth: 100%;\n\theight: 100%;\n\topacity: 0;\n\tbackground: #1f1d1d;\n\t-webkit-transition: opacity 0.6s;\n\ttransition: opacity 0.6s;\n}\n\n.preview--open {\n\tpointer-events: auto;\n}\n\n.preview--open::before {\n\topacity: 1;\n}\n\n.clone {\n\tposition: fixed;\n\tz-index: 110;\n\t-webkit-transition: -webkit-transform 0.5s;\n\ttransition: transform 0.5s;\n\t-webkit-backface-visibility: hidden;\n}\n\n.original {\n\tposition: relative;\n\tz-index: 120;\n\tdisplay: block;\n\tobject-fit: contain;\n\t-webkit-transition: opacity 0.2s;\n\ttransition: opacity 0.2s;\n\t-webkit-backface-visibility: hidden;\n}\n\n.preview--open .animate {\n\t/* open */\n\t-webkit-transition: -webkit-transform 0.6s, opacity 0.2s;\n\ttransition: transform 0.6s, opacity 0.2s;\n}\n\n.animate {\n\t/* close */\n\t-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;\n\ttransition: transform 0.3s, opacity 0.2s;\n}\n\n.description {\n\tcolor: #fff;\n}\n\n.js .description--grid {\n\tdisplay: none;\n}\n\n.description--preview {\n\tfont-size: 2em;\n\tposition: absolute;\n\tz-index: 140;\n\twidth: 100%;\n\tleft: 100%;\n\ttop: 0;\n\theight: 100%;\n\tpadding: 0 1em;\n\tdisplay: -ms-flex;\n\tdisplay: -webkit-flex;\n\tdisplay: flex;\n\t-ms-flex-direction: column;\n\t-webkit-flex-direction: column;\n\tflex-direction: column;\n\t-ms-flex-pack: center;\n\t-webkit-justify-content: center;\n\tjustify-content: center;\n\t-ms-flex-align: start;\n\t-webkit-align-items: flex-start;\n\talign-items: flex-start;\n\topacity: 0;\n\t-webkit-transition: opacity 1s, -webkit-transform 1s;\n\ttransition: opacity 1s, transform 1s;\n\t-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);\n\ttransition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);\n\t-webkit-transform: translate3d(0, 30px, 0);\n\ttransform: translate3d(0, 30px, 0);\n}\n\n.preview--open .description--preview {\n\topacity: 1;\n\t-webkit-transition-delay: 0.2s;\n\ttransition-delay: 0.2s;\n\t-webkit-transform: translate3d(0, 0, 0);\n\ttransform: translate3d(0, 0, 0);\n}\n\n.description--preview h3 {\n\tfont-weight: normal;\n\tmargin: 0;\n}\n\n.description--preview p {\n\tfont-size: 0.65em;\n\tmax-width: 100%;\n}\n\n.description--preview p em {\n\tcolor: #5D5D5D;\n\tdisplay: block;\n\tpadding: 0.4em 0 0 0;\n}\n\n\n/* Details */\n\n.details {\n\tmax-width: 100%;\n\t/* IE 10-11 bug flexbox */\n}\n\n.details ul {\n\tline-height: 1;\n\tposition: relative;\n\tmargin: 0;\n\tpadding: 0;\n\tlist-style: none;\n}\n\n.details ul li {\n\tfont-size: 0.5em;\n\tposition: relative;\n\tdisplay: inline-block;\n\tmargin: 0 1em 0 0;\n\tpadding: 0.15em 0;\n\twhite-space: nowrap;\n\topacity: 0;\n\tcolor: #9d9d9d;\n\t-webkit-transition: -webkit-transform 1s, opacity 1s;\n\ttransition: transform 1s, opacity 1s;\n\t-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);\n\ttransition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);\n\t-webkit-transform: translate3d(0, 20px, 0);\n\ttransform: translate3d(0, 20px, 0);\n}\n\n.preview--open .details ul li {\n\topacity: 1;\n\t-webkit-transform: translate3d(0, 0, 0);\n\ttransform: translate3d(0, 0, 0);\n}\n\n.preview--open .details ul li:nth-child(1) {\n\t-webkit-transition-delay: 0.2s;\n\ttransition-delay: 0.2s;\n}\n\n.preview--open .details ul li:nth-child(2) {\n\t-webkit-transition-delay: 0.3s;\n\ttransition-delay: 0.3s;\n}\n\n.preview--open .details ul li:nth-child(3) {\n\t-webkit-transition-delay: 0.4s;\n\ttransition-delay: 0.4s;\n}\n\n.preview--open .details ul li:nth-child(4) {\n\t-webkit-transition-delay: 0.5s;\n\ttransition-delay: 0.5s;\n}\n\n.preview--open .details ul li:nth-child(5) {\n\t-webkit-transition-delay: 0.6s;\n\ttransition-delay: 0.6s;\n}\n\n.details ul li:first-child {\n\tfont-weight: bold;\n\tcolor: #909090;\n}\n\n.icon {\n\tfont-family: 'camera-icons';\n\tfont-weight: normal;\n\tfont-style: normal;\n\tfont-variant: normal;\n\tline-height: 1;\n\tdisplay: inline-block;\n\tvertical-align: middle;\n\ttext-transform: none;\n\t/* Better Font Rendering =========== */\n\t-webkit-font-smoothing: antialiased;\n\t-moz-osx-font-smoothing: grayscale;\n\tspeak: none;\n}\n\n.icon + span {\n\tmargin-left: 5px;\n\tvertical-align: middle;\n}\n\n.icon-focal_length:before {\n\tcontent: '\\e600';\n}\n\n.icon-exposure_time:before {\n\tcontent: '\\e601';\n}\n\n.icon-iso:before {\n\tcontent: '\\e602';\n}\n\n.icon-camera:before {\n\tcontent: '\\e603';\n}\n\n.icon-aperture:before {\n\tcontent: '\\e604';\n}\n\n.details .icon {\n\tmargin-right: 5px;\n\tcolor: #77d45b;\n}\n\n\n/* Close button */\n\n.action {\n\tfont-size: 1.5em;\n\tmargin: 0;\n\tpadding: 0;\n\tcursor: pointer;\n\tvertical-align: top;\n\tcolor: #6bd68a;\n\tborder: none;\n\tbackground: none;\n}\n\n.action:hover,\n.action:focus {\n\tcolor: #6bd68a;\n\toutline: none;\n}\n\n.action--close {\n\tposition: fixed;\n\tz-index: 150;\n\ttop: 0;\n\tright: 0;\n\tpadding: 1em;\n\topacity: 0;\n\t-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;\n\ttransition: opacity 0.3s, transform 0.3s;\n\t-webkit-transform: scale3d(0.6, 0.6, 1);\n\ttransform: scale3d(0.6, 0.6, 1);\n}\n\n.preview--image-loaded .action--close {\n\topacity: 1;\n\t-webkit-transform: scale3d(1, 1, 1);\n\ttransform: scale3d(1, 1, 1);\n}\n\n.text-hidden {\n\tposition: absolute;\n\tdisplay: block;\n\toverflow: hidden;\n\twidth: 0;\n\theight: 0;\n\tcolor: transparent;\n}\n\n@media screen and (max-width: 40em) {\n\t.description--preview h3 {\n\t\tfont-size: 0.5em;\n\t}\n\t.description--preview p,\n\t.details {\n\t\tdisplay: none;\n\t}\n}\n",
+			"file": "/D/lampp/htdocs/ImageGridEffects/ImageGridEffects/css/style2.css",
+			"file_size": 6163,
+			"file_write_time": 130893579760000000,
+			"settings":
+			{
+				"buffer_size": 6164,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n\t<title>E-Cell, IIT Bombay</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"ecell.css\">\n\t<link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>\n\t<script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-latest.min.js\"></script>\n\t<script type=\"text/javascript\" src=\"menu_jquery.js\"></script>\n\t<script src=\"youmax.js\"></script>\n\t<script src=\"jquery.tabSlideOut.v1.3.js\"></script>\n\t<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>\n\t<link rel=\"shortcut icon\" href=\"calender/images/favicon.ico\" />\n\t<link rel=\"stylesheet\" href=\"nivo-slider/themes/default/default.css\" type=\"text/css\" media=\"screen\" />\n    <link rel=\"stylesheet\" href=\"nivo-slider/nivo-slider.css\" type=\"text/css\" media=\"screen\" />\n    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>\n\n\t\n\t<link rel=\"stylesheet\" href=\"calender/css/eventCalendar.css\">\n\n\n\t<link rel=\"stylesheet\" href=\"calender/css/eventCalendar_theme_responsive.css\">\n\t\t\n\t\t<link type=\"text/css\" rel=\"stylesheet\" href=\"lightimagegallery/src/css/lightGallery.css\" />                    \n \t\t<script src=\"lightimagegallery/src/js/lightGallery.js\"></script>\n \t\t   <link rel=\"shortcut icon\" href=\"../favicon.ico\">\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/normalize.css\" />\n\t\t\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/component.css\" />\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/content.css\" />\n\t\t<script src=\"js/modernizr.custom.js\"></script>\n\t\t<script src=\"animations-master/assets/js/smoothscroll.js\" type=\"text/javascript\"></script>\n\t\t<script src=\"header.js\"></script>\n\t\t<script src=\"sidebar.js\"></script>\n\t\t<script>\n\t\tfunction subscribe(){\n\t\t\t\t$.ajax({\n\t\ttype: 'POST',\n\t\turl : 'subscribe.php',\n\t\tdata: \"email=\"+$('#email').val() + \"&college=\"+$('#college').val(),\n\t\tsuccess: function(x){\n\t\t\t$('.sub_result').html(x);\n\t\t}\n\n\t});}</script>\n\t\n\t\n\t\n</head>\n<body>\n\n\t<div class=\"wrapper\">\n\n\t\t<?php include 'header.php';?>\n\t\t\n\t\t\n\t\t</div>\n \n\n\t\t\n\t\t<div id=\"sidebar\" style=\"width:10%;position:absolute;display:inline-block;z-index:100;margin-top:65px\">\n\t\t\t\t\t\t<a href=\"https://www.facebook.com/ecell.in\" target=\"_blank\"><img src=\"Social/fb2.jpg\" width=\"36\"/></a><br>\n\t\t\t\t\t\t<a href=\"https://twitter.com/ecell_iitb\" target=\"_blank\"><img src=\"Social/twitter2.jpg\" width=\"36\"/></a><br>\n\t\t\t\t\t\t<a href=\"https://www.linkedin.com/company/the-entrepreneurship-cell-iit-bombay\" target=\"_blank\"><img src=\"Social/linkedln.jpg\" width=\"36\"/></a><br>\n\t\t\t\t\t\t<a href=\"https://instagram.com/ecell_iitb/\" target=\"_blank\"><img src=\"Social/insta.jpg\" width=\"36\"/></a><br>\n\t\t\t\t\t\t<a href=\"https://play.google.com/store/apps/details?id=avignyata.android.startapp\" target=\"_blank\"><img src=\"Social/android.jpg\" width=\"36\"/></a><br>\n\t\t</div>\n\n    \n\t\t<ul id=\"lightGallery\">\n\t\t\t<div class=\"side_ref\"></div>\n\t\t\t    <li data-src=pics/IMG_9947.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_9947.JPG />\n\t\t    </li>\n\t\t\t  \n\t\t\t  \n\t\t\t    <li data-src=pics/IMG_0002.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_0002.JPG />\n\t\t    </li>\n\n\t\t    <li data-src=pics/IMG_5199.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_5199.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_0014.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_0014.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_0026.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_0026.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_0041.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_0041.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_0054.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_0054.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_0074.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_0074.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4803.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4803.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4811.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4811.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4817.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4817.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4828.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4828.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4842.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4842.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4853.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4853.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4861.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4861.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4876.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4876.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4913.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4913.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_4950.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_4950.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_5193.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_5193.JPG />\n\t\t    </li>\n\n\t\t\t    \n\n\t\t\t    <li data-src=pics/IMG_5256.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_5256.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_9893.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_9893.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_9922.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_9922.JPG />\n\t\t    </li>\n\n\t\t\t  \n\n\t\t\t    <li data-src=pics/IMG_9964.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_9964.JPG />\n\t\t    </li>\n\n\t\t\t    <li data-src=pics/IMG_9991.JPG>\n\t\t\t    <img style=width:250px style=height:167px src=pics/thumb/IMG_9991.JPG />\n\t\t    </li>\n\n\t\t\t  \n\t\t\t   \n\t\t\t  \n\t\t</ul>\n\n\t</div>\n\n\t<?php include 'footer.php';?>\n\t\t\n\t\t\n\t\n\n\n\n\n<script type=\"text/javascript\">\n  $(document).ready(function() {\n    $(\"#lightGallery\").lightGallery(); \n  });\n</script>\n<script src=\"js/classie.js\"></script>\n\t\t<script src=\"js/uiMorphingButton_fixed.js\"></script>\n\t\t<script>\n\t\t\t(function(){function r(){window.scrollTo(n?n.x:0,n?n.y:0)}function i(){window.removeEventListener(\"scroll\",u);window.addEventListener(\"scroll\",r)}function s(){window.addEventListener(\"scroll\",u)}function o(){window.removeEventListener(\"scroll\",r);s()}function u(){if(!t){t=true;setTimeout(function(){a()},60)}}function a(){n={x:window.pageXOffset||e.scrollLeft,y:window.pageYOffset||e.scrollTop};t=false}var e=window.document.documentElement,t,n;s();[].slice.call(document.querySelectorAll(\".morph-button\")).forEach(function(e){new UIMorphingButton(e,{closeEl:\".icon-close\",onBeforeOpen:function(){i()},onAfterOpen:function(){o()},onBeforeClose:function(){i()},onAfterClose:function(){o()}})});[].slice.call(document.querySelectorAll(\"form button\")).forEach(function(e){e.addEventListener(\"click\",function(e){e.preventDefault()})})})();\n\t\t</script>\n\t\t\n\t\n</body>\n</html>",
+			"file": "/C/Users/Pratyush Kumar/AppData/Local/Temp/fz3temp-2/gallery.php",
+			"file_size": 7468,
+			"file_write_time": 131464087426204167,
+			"settings":
+			{
+				"buffer_size": 7270,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9752,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INST",
+				"Install Package Control"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Pratyush Kumar/Desktop/Project no. 02/Conquest-master/assets",
+		"/C/Users/Pratyush Kumar/Desktop/Project no. 02/Conquest-master/assets/lib",
+		"/D/lampp/htdocs/ImageGridEffects",
+		"/D/lampp/htdocs/ImageGridEffects/ImageGridEffects",
+		"/D/lampp/htdocs/ImageGridEffects/ImageGridEffects/css"
+	],
+	"file_history":
+	[
+		"/C/Users/Pratyush Kumar/Desktop/Project no. 02/Conquest-master/contact_me.php",
+		"/C/Users/Pratyush Kumar/Desktop/Project no. 02/Conquest-master/index.html",
+		"/C/Users/Pratyush Kumar/AppData/Local/Temp/fz3temp-2/gallery_p.php",
+		"/C/Users/Pratyush Kumar/AppData/Roaming/Sublime Text 3/Packages/Package Control.sublime-package",
+		"/D/lampp/htdocs/first page/index.html",
+		"/D/lampp/htdocs/first page/css/theme.css",
+		"/D/lampp/htdocs/first page/aboutme.html",
+		"/D/lampp/htdocs/first page/contact.php",
+		"/D/lampp/htdocs/first page/contact.html",
+		"/D/lampp/htdocs/first page/portfolio-item.html",
+		"/C/Users/Pratyush Kumar/Desktop/Project/index.html",
+		"/D/lampp/htdocs/first page/page-sample.html",
+		"/C/Users/Pratyush Kumar/Desktop/dhak dhak.html",
+		"/C/Users/Pratyush Kumar/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/lampp/htdocs/first page/story.html",
+		"/D/lampp/htdocs/first page/autobots.html",
+		"/D/lampp/htdocs/first page/deepticons.html",
+		"/D/lampp/htdocs/index.php",
+		"/C/Users/Pratyush Kumar/Desktop/web/index.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"center",
+			"7]",
+			"6]",
+			"5]",
+			"4]",
+			"3]",
+			"1]",
+			"2]",
+			"1]",
+			"[",
+			"back",
+			" ;",
+			"align",
+			"right",
+			"section",
+			">\n",
+			"back",
+			"20encoding",
+			"xml",
+			"BACK",
+			"back",
+			"BACK"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Pratyush Kumar/Desktop/E-cell/new_site/gallery_p.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/lampp/htdocs/ImageGridEffects/ImageGridEffects/index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1262,
+								1262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/lampp/htdocs/ImageGridEffects/ImageGridEffects/css/style2.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 968.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Pratyush Kumar/AppData/Local/Temp/fz3temp-2/gallery.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1211,
+								1211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2160.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6606,
+								6606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Transformers V.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"page",
+				"page-sample.html"
+			],
+			[
+				"po",
+				"portfolio-item.html"
+			],
+			[
+				"tehme",
+				"css\\theme.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
